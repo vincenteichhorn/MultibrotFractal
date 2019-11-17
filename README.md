@@ -2,7 +2,7 @@
 This program creates an image of a multibrot fractal - an extension of the Mandelbrot fractal.
 The idea is to change the iteration rule of Mandelbrot. The potency two becomes a variable potency, which can be any real number.
 
-##Equations
+## Equations
 ![equation](https://latex.codecogs.com/gif.latex?z_{n&plus;1}&space;=&space;z_{n}^2&space;&plus;&space;c&space;\rightarrow&space;z_{n&plus;1}&space;=&space;z_{n}^p&space;&plus;&space;c) <br>
 Z is an element of the complete numbers (a + bi) and p is a real number. <br> 
 ![equation](https://latex.codecogs.com/gif.latex?z&space;=&space;(a&space;&plus;&space;bi)&space;=&space;r(cos(\alpha&space;)&space;&plus;sin(\alpha&space;)i)) <br>
