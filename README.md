@@ -29,7 +29,7 @@ Variable | Means | Default
 ### ...additional in timeplase/Main.java
 Variable | Means | Default
 ------------ | ------------- | -------------
-`duble powerIncrease` | count increasing to: power + powerIncrease = power in end of timelapse | 2
+`double powerIncrease` | count increasing to: power + powerIncrease = power in end of timelapse | 2
 `double increasing` | rate for increasing | 0.001
 
 ## Contributing - feel free to use and edit
