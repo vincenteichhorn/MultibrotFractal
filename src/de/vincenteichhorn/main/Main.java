@@ -14,13 +14,10 @@ public class Main {
 	public static int height = 720;
 	public static int ratioWidth = width / height;
 
-	public static double power = 1;
-	public static double powerIncrease = 2;
-	public static double increasing = 0.001;
+	public static double power = 2;
 
 	public static int maxIteration = 100;
-	public static int breakPoint = 10000;
-	public static double stripes = 3;
+	public static int breakPoint = 16;
 
 	public static Point2D center = new Point2D.Double(-0.5, 0);
 	public static double size = 1.25;
@@ -40,7 +37,7 @@ public class Main {
 				while (n <= maxIteration) {
 					double na = Math.pow(Math.sqrt(a * a + b * b), power) * Math.cos(power * Math.atan2(b, a));
 					double nb = Math.pow(Math.sqrt(a * a + b * b), power) * Math.sin(power * Math.atan2(b, a));
-					if (a * a + b * b > breakPoint)
+					if (Math.sqrt(a * a + b * b) > breakPoint)
 						break;
 					a = na + ca;
 					b = nb + cb;
@@ -52,7 +49,7 @@ public class Main {
 				if (n == maxIteration) {
 					color = Color.BLACK.getRGB();
 				} else {
-					color = Color.WHITE.getRGB();
+					color = (int) map(n, 0, maxIteration, 0, 255);
 				}
 				multibrot.setRGB(i, j, color);
 			}
