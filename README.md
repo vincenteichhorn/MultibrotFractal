@@ -4,7 +4,7 @@ The idea is to change the iteration rule of Mandelbrot. The potency two becomes 
 
 ## Equations
 ![equation](https://latex.codecogs.com/gif.latex?z_{n&plus;1}&space;=&space;z_{n}^2&space;&plus;&space;c&space;\rightarrow&space;z_{n&plus;1}&space;=&space;z_{n}^p&space;&plus;&space;c) <br>
-Z is an element of the complete numbers (a + bi) and p is a real number. <br> 
+Z is an element of the complex numbers (a + bi) and p a real number. <br> 
 ![equation](https://latex.codecogs.com/gif.latex?z&space;=&space;(a&space;&plus;&space;bi)&space;=&space;r(cos(\alpha&space;)&space;&plus;sin(\alpha&space;)i)) <br>
 ![equation](https://latex.codecogs.com/gif.latex?r&space;=&space;\arg&space;(z)&space;=&space;\sqrt{a^2&space;&plus;&space;b^2}) <br>
 ![equation](https://latex.codecogs.com/gif.latex?\alpha&space;=&space;\arctan&space;2(b,&space;a)) <br><br>
