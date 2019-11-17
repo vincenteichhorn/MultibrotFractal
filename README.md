@@ -13,7 +13,8 @@ Z is an element of the complex numbers (a + bi) and p a real number. <br>
 ![equation](https://latex.codecogs.com/gif.latex?a_%7Bn%20&plus;%201%7D%20%3D%20%5Csqrt%20%7Ba_%7Bn%7D%5E%7B2%7D%20&plus;%20b_%7Bn%7D%5E2%7D%5E%7Bp%7D*cos%28p%20*%20%5Carctan2%28b_%7Bn%7D%2C%20a_%7Bn%7D%29%29) <br>
 ![equation](https://latex.codecogs.com/gif.latex?b_%7Bn%20&plus;%201%7D%20%3D%20%5Csqrt%20%7Ba_%7Bn%7D%5E%7B2%7D%20&plus;%20b_%7Bn%7D%5E2%7D%5E%7Bp%7D*sin%28p%20*%20%5Carctan2%28b_%7Bn%7D%2C%20a_%7Bn%7D%29%29i)
 
-## Variables in Main.java
+## Variables
+### ...in src/Main.java
 Variable | Means | Default
 ------------ | ------------- | -------------
 `int width` | width of the image | 1400
@@ -25,7 +26,13 @@ Variable | Means | Default
 `Point"D center`| coordinates in center of the image| .Double(-0.5, 0)
 `double size`| length of the x/y-axis in **each** direction| 1.25
 
-## Contributing - feel free to edit
+### ...additional in timeplase/Main.java
+Variable | Means | Default
+------------ | ------------- | -------------
+`duble powerIncrease` | count increasing to: power + powerIncrease = power in end of timelapse | 2
+`double increasing` | rate for increasing | 0.001
+
+## Contributing - feel free to use and edit
  1. Fork it!
  2. Create your feature branch: git checkout -b my-new-feature
  3. Commit your changes: git commit -am 'Add some feature'
