@@ -23,7 +23,7 @@ Variable | Means | Default
 `double power` | power for calculation: 2 gives mandelbrot set| 2
 `int maxIterations`| maximal interations | 100
 `int breakPoint`| divergence border| 16
-`Point"D center`| coordinates in center of the image| .Double(-0.5, 0)
+`Point2D center`| coordinates in center of the image| Double(-0.5, 0)
 `double size`| length of the x/y-axis in **each** direction| 1.25
 
 ### ...additional in timeplase/Main.java
